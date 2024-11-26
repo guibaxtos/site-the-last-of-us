@@ -1,0 +1,22 @@
+@use 'variaveis';
+
+.menu{
+    padding: 36px;
+    background-color: #FFF;
+
+    &__tabs{
+        text-align: center;
+        text-decoration: none;
+        color: variaveis.$corDeFundo;
+
+        &__item{
+            display: inline;
+            padding: 16px;
+
+            &__link{
+                text-decoration: none;
+                color: variaveis.$corDeFundo;
+            }
+        }
+    }
+}

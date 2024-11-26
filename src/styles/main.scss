@@ -1,0 +1,43 @@
+@use 'variaveis';
+@use 'menu';
+@use 'hero';
+@use 'info';
+@use 'elenco';
+
+@font-face{
+    font-family: Rough;
+    src: url(../../assets/The\ Last\ Of\ Us\ Rough.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: variaveis.$corDeFundo;
+}
+
+@mixin text($fontSize: 16px){
+    font-size: $fontSize;
+    color: variaveis.$corTextos;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@mixin title($fontSize: 44px){
+    font-size: $fontSize;
+    font-family: Rough, sans-serif;
+    color: #ffffff;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.title{
+    @include title
+}
+
+.text{
+    @include text
+}
+
