@@ -3,16 +3,18 @@
         padding: 5.6vw;
         text-align: center;
 
-        @media (max-width: 768px){
-            left: 3%;
-        }
-
         &__logo{
+            @media (max-width: 768px){
+                padding-top: 80px;
+            }
             img{
                 height: 300px;
 
                 @media (max-width: 768px){
-                    height: 20vh;
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                    
                 }
             }
         }
