@@ -1,0 +1,9 @@
+.footer{
+    padding: 20px;
+
+    &__rights, &__text{
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 10px;
+    }
+}

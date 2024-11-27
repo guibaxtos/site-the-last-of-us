@@ -3,6 +3,11 @@
 @use 'hero';
 @use 'info';
 @use 'elenco';
+@use 'faq';
+@use 'about';
+@use 'footer';
+@use 'games';
+@use 'comunity';
 
 @font-face{
     font-family: Rough;
@@ -16,6 +21,7 @@
 }
 body{
     background-color: variaveis.$corDeFundo;
+    overflow-x: hidden;
 }
 
 @mixin text($fontSize: 16px){

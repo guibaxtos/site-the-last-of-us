@@ -20,7 +20,7 @@
                 <a class="menu__tabs__item__link" href="#comunity">Comunidade</a>
             </li>
             <li class="menu__tabs__item">
-                <a class="menu__tabs__item__link" href="">Perguntas frequentes</a>
+                <a class="menu__tabs__item__link" href="#faq">Perguntas frequentes</a>
             </li>
         </ul>
     </nav>
@@ -32,9 +32,11 @@
         </div>
     </section>
     <section class="games" id="games">
-        <img src="./src/imgs/tlou1.png" alt="The Last Of Us Parte 2">
-        <img src="./src/imgs/left-behind.png" alt="The LAst Of Us: Left Behind">
-        <img src="./src/imgs/tlou2.png" alt="The Last Of Us Parte 2">
+        <div class="games__images">
+        <img class="games__images__item" src="./src/imgs/tlou1.png" alt="The Last Of Us Parte 2">
+        <img class="games__images__item" src="./src/imgs/left-behind.png" alt="The LAst Of Us: Left Behind">
+        <img class="games__images__item" src="./src/imgs/tlou2.png" alt="The Last Of Us Parte 2">
+        </div>
     </section>
     <section class="info">
         <img src="./src/imgs/info-img.png" alt="">
@@ -60,8 +62,65 @@
         </div>
     </section>
     <section id="comunity">
-        <img src="./src/imgs/comunidade.png" alt="">
+        <img class="comunity__image" src="./src/imgs/comunidade.png" alt="">
     </section>
-    <script src="./main.js"></script>
+    <section class="faq__container" id="faq">
+        <div class="faq">
+            <h2 class="faq__title title">Perguntas Frequentes</h2>
+        <div class="faq__item">
+            <button class="faq__question text">Em que ordem devo jogar The Last Of Us?</button>
+            <div class="faq__answer text">Recomendamos aos jogadores que comecem com The Last of Us Part I, seguido da expansão inclusa, Left Behind, e, por fim, The Last of Us Part II, para curtir a história desde o início.</div>
+        </div>
+        <div class="faq__item">
+            <button class="faq__question text">Onde possso jogar The Last Of Us?</button>
+            <div class="faq__answer text">The Last of Us Part I no momento está disponível para PS5 e para PC. The Last of Us Part II está disponível para PS4 e The Last of Us Part II Remastered está disponível para PS5.</div>
+        </div>
+        <div class="faq__item">
+            <button class="faq__question text">Que tipo de jogo é The Last Of Us? É uma série de horror?</button>
+            <div class="faq__answer text">The Last of Us é uma série de jogos de ação/aventura em terceira pessoa com uma jogabilidade dramática e outros elementos intensos. Embora alguns jogadores possam achar esses momentos assustadores, não é uma franquia de horror.</div>
+            <img class="faq__image" src="./src/imgs/faq.webp" alt="">
+        </div>
+        <div class="faq__item">
+            <button class="faq__question text">Tem um modo multijogador em The Last Of Us?</button>
+            <div class="faq__answer text">Não, The Last of Us Part I e Part II não contam com modos multijogador</div>
+            <img class="faq__image" src="./src/imgs/faq.webp" alt="">
+        </div>
+        <div class="faq__item">
+            <button class="faq__question text">Tem algum DLC?</button>
+            <div class="faq__answer text">Não, no momento não há nenhum DLC disponível para The Last of Us Part I nem Part II. Left Behind, a princípio lançado em 2013 como DLC para o jogo The Last of Us original, foi incluído em The Last of Us Part I.</div>
+            <img class="faq__image" src="./src/imgs/faq.webp" alt="">
+        </div>
+        <div class="faq__item">
+            <button class="faq__question text">Qual é o nível de dificuldade de The Last Of Us?</button>
+            <div class="faq__answer text">The Last of Us Part I e Part II oferecem uma série de opções de dificuldades para os jogadores, dependendo de suas preferências. Os modos de dificuldade variam de Muito Trivial, que se concentra na exploração e na história, até a nossa dificuldade exclusiva Punitivo, para jogadores que querem ume experiência hiper-realista e extremamente desafiadora.
+            Nossas opções de acessibilidade também incluem uma série de modificações que permitirão aos jogadores personalizarem seu estilo de jogo e nível de habilidade.</div>
+            <img class="faq__image" src="./src/imgs/faq.webp" alt="">
+        </div>
+        <div class="faq__item">
+            <button class="faq__question text">Quais opções de acessibilidade estão disponíveis em The Last Of Us Part 1 e Part II?</button>
+            <div class="faq__answer text">Tanto The Last of Us Part I quanto Part II contam com um amplo conjunto de opções de acessibilidade que permitirão ao jogadores adaptarem a experiência da jogabilidade às suas necessidades e preferências. Acesse a seção Acessibilidade se quiser saber mais. 
+            </div>
+            <img class="faq__image" src="./src/imgs/faq.webp" alt="">
+        </div>
+        </div>
+    </section>
+    <section class="about">
+        <h2 class="about__title">Sobre a Naughty Dog</h2>
+        <p class="about__text">Fundada em 1984, a Naughty Dog é um dos estúdios de desenvolvimento de jogos mais prolíficos e bem-sucedidos do mundo, um destaque dentro da PlayStation Studios. Da criação de séries icônicas como Crash Bandicoot e Jak and Daxter a franquias modernas como Uncharted e The Last of Us, a Naughty Dog é a responsável por alguns dos jogos de mais sucesso de público e crítica das plataformas PlayStation da Sony. Com uma tecnologia avançada e narrativas evocativas concentradas nos personagens, a Naughty Dog recebeu centenas de prêmios da indústria e da mídia, ao mesmo tempo conquistando um público apaixonado de milhões de jogadores no mundo inteiro.
+
+            Entre os lançamentos mais recentes da Naughty Dog, estão UNCHARTED 4: A Thief's End, de 2016, vencedor de inúmeros prêmios Jogo do Ano, UNCHARTED: The Lost Legacy, de 2017, uma nova aventura individual, e UNCHARTED: Legacy of Thieves Collection, de 2022, na série UNCHARTED. Em dezembro de 2017, as vendas globais totais da franquia Uncharted ultrapassaram a marca de 41,7 milhões de cópias vendidas.
+            
+            O título mais recente da Naughty Dog é The Last of Us Part I, uma releitura do premiado sucesso de 2013 para PlayStation 3, The Last of Us. The Last of Us Part I já está disponível para PS5.
+            
+            A Naughty Dog é uma subsidiária exclusiva da Sony Interactive Entertainment localizada em Santa Monica, Califórnia. Caso queira mais informações, siga-os no Twitter, no Facebook ou no Instagram.</p>
+            <div>
+                <img class="about__logo" src="./src/imgs/naughty-dog.webp" alt="">
+            </div>
+    </section>
+    <footer class="footer">
+        <p class="footer__rights">© 2024 Sony Interactive Entertainment LLC</p>
+        <p class="footer__text">Todo o conteúdo, títulos de jogos, nomes comerciais e/ou designações comerciais, marcas comerciais, arte e imagens associadas são marcas registradas e/ou material sob direitos autorais dos seus respectivos proprietários. Todos os direitos reservados.</p>
+    </footer>
+    <script src="./dist/js/main.js"></script>
 </body>
 </html>
